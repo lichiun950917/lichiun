@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>LiChiun</title>
+  <link rel="stylesheet" href="css/css.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
+</head>
+<body>
+
+  <nav>
+    <div class="container_n">
+      <div class="logo">
+        <a href="index.html"><img src="img/logo.png"></a>
+        <a href="index.html" style="padding-left: 20px;">LiChiun PCB Layout</a>
+      </div>
+      <div class="right">
+        <ul>
+          <li><a href="#about_me">關於</a></li>
+          <li><a href="#gallery">產品</a></li>
+          <li><a href="#contact_me">聯絡</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="main">
+      <h1>立群企業</h1>
+      <h2 class="animated fadeInUp">讓我們的誠信與耐心換取您的安心與放心</h2>
+      <h2 class="animated fadeInUp">專人比對線路圖提供您更高的準確性</h2>
+    </div>
+    <div class="about" id="about_me">
+      <div class="title">
+        <h1>關於</h1>
+      </div>
+      <div class="information">
+        <div class="information_left">
+          <h2>資深工程師</h2>
+          <h1>陳徐烈</h1>
+          <p>Leo Chen</p>
+        </div>
+        <div class="information_right">
+          <ul>
+            <li>精通各類安規</li>
+            <li>UL .FCC .CE .EMI</li><br>
+            <li>專精:</li>
+            <li>數位電路板</li>
+            <li>類比電路板</li>
+            <li>多層電路板</li>
+            <li>高密度電路板</li>
+            <li>消費性電子電路板</li>
+            <li>各種電腦介面卡</li>
+            <li>線路圖繪製</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio" id="gallery">
+      <div class="title">
+        <h1>產品</h1>
+      </div>
+      <div class="work">
+        <a href="img/IMG_0051.JPG"target="blank"><img src="img/IMG_0051.JPG"></a>
+        <a href="img/IMG_0052.JPG"target="blank"><img src="img/IMG_0052.JPG"></a>
+        <a href="img/IMG_0053.JPG"target="blank"><img src="img/IMG_0053.JPG"></a>
+        <a href="img/IMG_0054.JPG"target="blank"><img src="img/IMG_0054.JPG"></a>
+      </div>
+      <div class="work">
+        <a href="img/IMG_0055.JPG"target="blank"><img src="img/IMG_0055.JPG"></a>
+        <a href="img/IMG_0056.JPG"target="blank"><img src="img/IMG_0056.JPG"></a>
+        <a href="img/IMG_0057.JPG"target="blank"><img src="img/IMG_0057.JPG"></a>
+        <a href="img/IMG_0059.JPG"target="blank"><img src="img/IMG_0059.JPG"></a>
+      </div>
+      <div class="more clear">
+        <a href="gallery.html">more >></a>
+      </div>
+    </div>
+
+
+  </div>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+  <footer>
+    <div class="container_n">
+      <div class="contact" id="contact_me">
+        <div class="title">
+          <h1>聯絡</h1>
+        </div>
+        <div class="contact_info">
+          <div class="part">
+            <img src="img/icon/icon-phone.png">
+            <h3>TEL:(02)2545-1978</h3>
+          </div>
+          <div class="part">
+            <img src="img/icon/icon-fax.png">
+            <h3>FAX:(02)2546-3093</h3>
+          </div>
+          <div class="part">
+            <img src="img/icon/icon-mail.png">
+            <h3>li.chiun@msa.hinet.net</h3>
+          </div>
+          <div class="part">
+            <img src="img/icon/icon-address.png">
+            <h3>台北市南京東路四段21號8樓之2</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+</body>
+</html>
